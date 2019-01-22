@@ -1,0 +1,17 @@
+{
+  "main": "index.html",
+  "name": "SystemD Desktop Wallet",
+  "version": "1.5.1",
+  "description": "SystemD Desktop Wallet",
+  "single-instance": false,
+  "window": {
+    "frame": true,
+    "toolbar": false,
+    "width": 1024,
+    "height": 650,
+    "min_width": 768,
+    "min_height": 100,
+    "title": "SystemD Desktop Wallet",
+    "icon": "../img/mobile/icon196.png"
+  }
+}

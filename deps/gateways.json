@@ -1,0 +1,13 @@
+[
+       {
+        "name": "Feingkai",
+        "accounts": [{
+            "address": "rUPKfbT8GzBy11qHHEue1ENLeqTF5idWQw",
+            "currencies": ["BTC", "BTG", "BCH", "IOT", "EOS", "ADA", "XMR", "XLM", "EMC", "VIA", "ETH", "EMN", "DSH", "XIM", "NAV", "GUP", "BSD", "XBC", "LOG", "EXP", "ETC", "NMC", "PPC", "LTC", "VTC", "SYS", "MON", "GRS", "DGB" ],
+            "hotwallets": []
+            }],
+        "domain": "feingkai.com"
+            
+    }
+
+]

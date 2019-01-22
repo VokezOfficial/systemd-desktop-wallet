@@ -1,0 +1,31 @@
+// Wrapper
+div#wrapper
+  // Header
+  header
+    h1(ng-show="['t-login','t-register', 't-submit', 't-coldwallet'].indexOf($route.current.tabClass) !== -1", l10n) Welcome to the {{native_currency_name}} Network, a marketplace for global exchange
+    include ./_navbar.jade
+  .container
+
+    // Main
+    .row.main(id="{{$route.current.tabClass}}", role="main", ng-view)
+
+    // Footer
+    footer.row
+      .col-sm-3
+        a(href="https://github.com/VokezOfficial/systemd-desktop-wallet/releases", target="_blank", l10n)
+          | Version: {{version}}
+
+       .col-sm-9.right-links
+         a(href="https://vokez.io/", target="_blank", l10n) vokez.io
+         a(href="https://github.com/VokezOfficial/systemd-desktop-wallet/issues", target="_blank", l10n) Bug reports
+         //a(href="https://osim91w.oneskyapp.com/collaboration/project/185104", target="_blank", l10n) Help Translate
+         a(href="#/lang/zh_CN") 中文
+         a(href="#/lang/ko") 한국말
+         a(href="#/lang/ja") 日本の
+         a(href="#/lang/ru") Русский
+         a(href="#/lang/es") Español
+         a(href="#/lang/he_IL") עברית
+         a(href="#/lang/fr_FR") Français
+         a(href="#/lang/pt_BR") Português
+         
+
